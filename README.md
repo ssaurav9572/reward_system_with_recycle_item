@@ -1,20 +1,8 @@
-# reward_system_with_recycle_item
-Explanation:
+Run the Script: Open a terminal or command prompt, navigate to the directory where recycle_system.py is saved, and run the script using the command
+Assumptions and Design Decisions
 
-    Item Acceptance:
-        The RecycleSystem class contains a dictionary REWARD_VALUES that defines the reward for each type of item.
-        The add_item method checks if the item type is valid, adds it to the list of items, and updates the total reward.
-
-    User Interface:
-        The CLI is implemented in the main function, displaying a menu and handling user inputs.
-        Users can add items, view total rewards, and reset the system.
-
-    Data Management:
-        The RecycleSystem class maintains a record of accepted items and the total reward.
-        The reset_system method clears the record for a new user session.
-
-    Code Quality:
-        The code is clean, readable, and well-documented with appropriate class and method usage.
-        Error handling is implemented for invalid item types and menu choices.
-
-This project can be run as a standalone Python script, providing an interactive command-line interface for users to simulate the collection and rewarding of recyclable items.
+    Predefined Reward Values: The reward values for each item type (A, B, C) are predefined and stored in a class-level dictionary REWARD_VALUES. This makes it easy to update reward values if needed.
+    Item Types Validation: The add_item method validates the item type against the predefined reward values. If an invalid item type is entered, an error message is printed.
+    User Interaction: The system interacts with the user via the console, allowing them to add items, view total rewards, reset the system, or exit.
+    Case Insensitivity: Item types entered by the user are converted to uppercase to ensure case insensitivity.
+    Simple Menu Navigation: The menu is designed to be simple and intuitive, guiding the user through the available options.
