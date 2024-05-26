@@ -1,4 +1,4 @@
-Run the Script: Open a terminal or command prompt, navigate to the directory where recycle_system.py is saved, and run the script using the command
+Run the Script: Open a terminal or command prompt, navigate to the directory where main.py is saved, and run the script using the command
 
 Overview of the Code Structure
 The code is structured into several components to handle the recycling system's functionalities. Here's a breakdown of the structure:
